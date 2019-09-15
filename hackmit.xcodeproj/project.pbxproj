@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3CF340232E837E00FE4357 /* Photos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3CF33F232E837E00FE4357 /* Photos.xcassets */; };
 		0C6A614F232DABB7008C3D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A614E232DABB7008C3D67 /* AppDelegate.swift */; };
-		0C6A6151232DABB7008C3D67 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A6150232DABB7008C3D67 /* FirstViewController.swift */; };
-		0C6A6153232DABB7008C3D67 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A6152232DABB7008C3D67 /* SecondViewController.swift */; };
 		0C6A6156232DABB7008C3D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6A6154232DABB7008C3D67 /* Main.storyboard */; };
 		0C6A6158232DABB8008C3D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6A6157232DABB8008C3D67 /* Assets.xcassets */; };
 		0C6A615B232DABB8008C3D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6A6159232DABB8008C3D67 /* LaunchScreen.storyboard */; };
+		0CA260E4232E3FEA006A372D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CA260E3232E3FEA006A372D /* Settings.bundle */; };
+		0CAD58C5232DC80000CC998A /* TutorialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD58C4232DC80000CC998A /* TutorialController.swift */; };
+		0CAD58C7232DCF9D00CC998A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD58C6232DCF9D00CC998A /* LoginController.swift */; };
+		0CAD58C9232DD11600CC998A /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD58C8232DD11600CC998A /* SignUpController.swift */; };
+		0CAD58CB232DE4B100CC998A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CAD58CA232DE4B100CC998A /* GoogleService-Info.plist */; };
+		0CD37ABD232E0A1A008EA8B0 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD37ABC232E0A1A008EA8B0 /* MapController.swift */; };
+		0CD37ABF232E0A2B008EA8B0 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD37ABE232E0A2B008EA8B0 /* UserController.swift */; };
+		0CD37AC1232E0A3A008EA8B0 /* ListingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD37AC0232E0A3A008EA8B0 /* ListingsController.swift */; };
+		0CD37AC3232E0A77008EA8B0 /* MyListingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD37AC2232E0A77008EA8B0 /* MyListingsController.swift */; };
+		0CD37AC8232E2F60008EA8B0 /* AnnotatedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD37AC5232E2F60008EA8B0 /* AnnotatedPhotoCell.swift */; };
+		0CD37AC9232E2F60008EA8B0 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD37AC6232E2F60008EA8B0 /* Photo.swift */; };
+		0CD37ACA232E2F60008EA8B0 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD37AC7232E2F60008EA8B0 /* PinterestLayout.swift */; };
+		0CD37ACF232E2FC6008EA8B0 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CD37ACD232E2FC6008EA8B0 /* Photos.plist */; };
+		1FFB7CDA587F01710E380B36 /* Pods_hackmit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A506BFE3E273A4385BA2D1E /* Pods_hackmit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3CF33F232E837E00FE4357 /* Photos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photos.xcassets; sourceTree = "<group>"; };
 		0C6A614B232DABB7008C3D67 /* hackmit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackmit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6A614E232DABB7008C3D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C6A6150232DABB7008C3D67 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0C6A6152232DABB7008C3D67 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0C6A6155232DABB7008C3D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C6A6157232DABB8008C3D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C6A615A232DABB8008C3D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C6A615C232DABB8008C3D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA260E3232E3FEA006A372D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		0CAD58C4232DC80000CC998A /* TutorialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialController.swift; sourceTree = "<group>"; };
+		0CAD58C6232DCF9D00CC998A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0CAD58C8232DD11600CC998A /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		0CAD58CA232DE4B100CC998A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0CD37ABC232E0A1A008EA8B0 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		0CD37ABE232E0A2B008EA8B0 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		0CD37AC0232E0A3A008EA8B0 /* ListingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsController.swift; sourceTree = "<group>"; };
+		0CD37AC2232E0A77008EA8B0 /* MyListingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListingsController.swift; sourceTree = "<group>"; };
+		0CD37AC5232E2F60008EA8B0 /* AnnotatedPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotatedPhotoCell.swift; sourceTree = "<group>"; };
+		0CD37AC6232E2F60008EA8B0 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		0CD37AC7232E2F60008EA8B0 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		0CD37ACD232E2FC6008EA8B0 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		1A11969D8CA76F7FF0DB2971 /* Pods-hackmit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackmit.debug.xcconfig"; path = "Target Support Files/Pods-hackmit/Pods-hackmit.debug.xcconfig"; sourceTree = "<group>"; };
+		1A506BFE3E273A4385BA2D1E /* Pods_hackmit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackmit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8704738D2177C78C4BF741E1 /* Pods-hackmit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackmit.release.xcconfig"; path = "Target Support Files/Pods-hackmit/Pods-hackmit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFB7CDA587F01710E380B36 /* Pods_hackmit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A34DD4641218328DBB7023E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A506BFE3E273A4385BA2D1E /* Pods_hackmit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0C6A6142232DABB7008C3D67 = {
 			isa = PBXGroup;
 			children = (
+				0CA260E3232E3FEA006A372D /* Settings.bundle */,
 				0C6A614D232DABB7008C3D67 /* hackmit */,
 				0C6A614C232DABB7008C3D67 /* Products */,
+				EA33C95F440EF82556FF0D44 /* Pods */,
+				0A34DD4641218328DBB7023E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,67 @@
 		0C6A614D232DABB7008C3D67 /* hackmit */ = {
 			isa = PBXGroup;
 			children = (
+				0CA260E5232E40A6006A372D /* Auth */,
+				0CD37ACB232E2FAC008EA8B0 /* Assets */,
+				0CD37AC4232E2F17008EA8B0 /* CollectionViewLibs */,
+				0CD37ABB232E09FC008EA8B0 /* Tabs */,
+				0CAD58CA232DE4B100CC998A /* GoogleService-Info.plist */,
 				0C6A614E232DABB7008C3D67 /* AppDelegate.swift */,
-				0C6A6150232DABB7008C3D67 /* FirstViewController.swift */,
-				0C6A6152232DABB7008C3D67 /* SecondViewController.swift */,
 				0C6A6154232DABB7008C3D67 /* Main.storyboard */,
-				0C6A6157232DABB8008C3D67 /* Assets.xcassets */,
 				0C6A6159232DABB8008C3D67 /* LaunchScreen.storyboard */,
 				0C6A615C232DABB8008C3D67 /* Info.plist */,
 			);
 			path = hackmit;
+			sourceTree = "<group>";
+		};
+		0CA260E5232E40A6006A372D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD58C4232DC80000CC998A /* TutorialController.swift */,
+				0CAD58C6232DCF9D00CC998A /* LoginController.swift */,
+				0CAD58C8232DD11600CC998A /* SignUpController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0CD37ABB232E09FC008EA8B0 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				0CD37ABC232E0A1A008EA8B0 /* MapController.swift */,
+				0CD37ABE232E0A2B008EA8B0 /* UserController.swift */,
+				0CD37AC0232E0A3A008EA8B0 /* ListingsController.swift */,
+				0CD37AC2232E0A77008EA8B0 /* MyListingsController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		0CD37AC4232E2F17008EA8B0 /* CollectionViewLibs */ = {
+			isa = PBXGroup;
+			children = (
+				0CD37AC5232E2F60008EA8B0 /* AnnotatedPhotoCell.swift */,
+				0CD37AC6232E2F60008EA8B0 /* Photo.swift */,
+				0CD37AC7232E2F60008EA8B0 /* PinterestLayout.swift */,
+			);
+			path = CollectionViewLibs;
+			sourceTree = "<group>";
+		};
+		0CD37ACB232E2FAC008EA8B0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0C3CF33F232E837E00FE4357 /* Photos.xcassets */,
+				0CD37ACD232E2FC6008EA8B0 /* Photos.plist */,
+				0C6A6157232DABB8008C3D67 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EA33C95F440EF82556FF0D44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A11969D8CA76F7FF0DB2971 /* Pods-hackmit.debug.xcconfig */,
+				8704738D2177C78C4BF741E1 /* Pods-hackmit.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C6A615F232DABB8008C3D67 /* Build configuration list for PBXNativeTarget "hackmit" */;
 			buildPhases = (
+				81EF773ACBEAA60A2A0399C1 /* [CP] Check Pods Manifest.lock */,
 				0C6A6147232DABB7008C3D67 /* Sources */,
 				0C6A6148232DABB7008C3D67 /* Frameworks */,
 				0C6A6149232DABB7008C3D67 /* Resources */,
+				6A7B8D75AD55DC7964289E28 /* [CP] Embed Pods Frameworks */,
+				5752ED09750FBF6FCC8C6C99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,21 +221,92 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C6A615B232DABB8008C3D67 /* LaunchScreen.storyboard in Resources */,
+				0CAD58CB232DE4B100CC998A /* GoogleService-Info.plist in Resources */,
 				0C6A6158232DABB8008C3D67 /* Assets.xcassets in Resources */,
 				0C6A6156232DABB7008C3D67 /* Main.storyboard in Resources */,
+				0C3CF340232E837E00FE4357 /* Photos.xcassets in Resources */,
+				0CD37ACF232E2FC6008EA8B0 /* Photos.plist in Resources */,
+				0CA260E4232E3FEA006A372D /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5752ED09750FBF6FCC8C6C99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackmit/Pods-hackmit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackmit/Pods-hackmit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hackmit/Pods-hackmit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A7B8D75AD55DC7964289E28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackmit/Pods-hackmit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hackmit/Pods-hackmit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hackmit/Pods-hackmit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81EF773ACBEAA60A2A0399C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hackmit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C6A6147232DABB7008C3D67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C6A6153232DABB7008C3D67 /* SecondViewController.swift in Sources */,
+				0CD37ABF232E0A2B008EA8B0 /* UserController.swift in Sources */,
+				0CD37AC1232E0A3A008EA8B0 /* ListingsController.swift in Sources */,
 				0C6A614F232DABB7008C3D67 /* AppDelegate.swift in Sources */,
-				0C6A6151232DABB7008C3D67 /* FirstViewController.swift in Sources */,
+				0CAD58C7232DCF9D00CC998A /* LoginController.swift in Sources */,
+				0CD37AC9232E2F60008EA8B0 /* Photo.swift in Sources */,
+				0CD37AC8232E2F60008EA8B0 /* AnnotatedPhotoCell.swift in Sources */,
+				0CD37AC3232E0A77008EA8B0 /* MyListingsController.swift in Sources */,
+				0CD37ACA232E2F60008EA8B0 /* PinterestLayout.swift in Sources */,
+				0CAD58C5232DC80000CC998A /* TutorialController.swift in Sources */,
+				0CD37ABD232E0A1A008EA8B0 /* MapController.swift in Sources */,
+				0CAD58C9232DD11600CC998A /* SignUpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +450,11 @@
 		};
 		0C6A6160232DABB8008C3D67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A11969D8CA76F7FF0DB2971 /* Pods-hackmit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6TRY3Z9F5;
 				INFOPLIST_FILE = hackmit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,9 +469,11 @@
 		};
 		0C6A6161232DABB8008C3D67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8704738D2177C78C4BF741E1 /* Pods-hackmit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6TRY3Z9F5;
 				INFOPLIST_FILE = hackmit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

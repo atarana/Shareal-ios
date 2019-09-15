@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Caption</key>
+		<string>Leaf blower</string>
+		<key>Comment</key>
+		<string>10$/day</string>
+		<key>Photo</key>
+		<string>01</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Drill</string>
+		<key>Comment</key>
+		<string>1.50$/hour or 7$/day</string>
+		<key>Photo</key>
+		<string>02</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Motorhome</string>
+		<key>Comment</key>
+		<string>80$/day or 450$/week</string>
+		<key>Photo</key>
+		<string>03</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Bicycle</string>
+		<key>Comment</key>
+		<string>6$/day</string>
+		<key>Photo</key>
+		<string>04</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Skis</string>
+		<key>Comment</key>
+		<string>18$/day</string>
+		<key>Photo</key>
+		<string>05</string>
+	</dict>
+</array>
+</plist>
